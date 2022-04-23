@@ -17,7 +17,20 @@ Desde la consola, ejecutamos el siguiente comando:
     node app
 ```
 
-Esto no abrirá la ayuda y mostrará los elementos que se necesitan. En este caso, se necesita mandar la base del número que queremos multiplicar.
+Nos aparecerá algo como esto:
+
+```
+Options:
+      --help     Show help                                             [boolean]
+      --version  Show version number                                   [boolean]
+  -b, --base     Es la base de la tabla de multiplicar.      [number] [required]
+  -l, --listar   Muestra la tabla en consola.         [boolean] [default: false]
+  -h, --hasta    Este es el número hasta donde quieres la tabla. [number] [default: 10]
+```
+
+Esto no abrirá la ayuda y mostrará los elementos que se necesitan. 
+
+En este caso, se necesita mandar la base del número que queremos multiplicar.
 ```
     node app --base <numero_base>
 ```

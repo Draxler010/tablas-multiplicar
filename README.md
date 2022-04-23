@@ -5,6 +5,7 @@ Este es un ejercicio realizado del curso de Node JS de Fernando Herrera.
 ## Pasos de Instalación
 
 1. Inicializar los paquetes de node:
+
     ```
         npm install
     ```
